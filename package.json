@@ -1,0 +1,29 @@
+{
+  "name": "traffic-backend-node",
+  "version": "1.0.0",
+  "description": "The NodeJs backend for the alpha traffic module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/david-saint/traffic-backend-node.git"
+  },
+  "keywords": [
+    "node",
+    "javascript"
+  ],
+  "author": "David Saint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/david-saint/traffic-backend-node/issues"
+  },
+  "homepage": "https://github.com/david-saint/traffic-backend-node#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}

@@ -16,6 +16,9 @@
     "node",
     "javascript"
   ],
+  "engines": {
+    "node": "11.2.0"
+  },
   "author": "David Saint",
   "license": "ISC",
   "bugs": {

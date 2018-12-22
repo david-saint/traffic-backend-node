@@ -11,7 +11,6 @@ exports.distanceMatrix = (req, res) => {
   if (error !== null) {
     return res.status(400).json(error);
   }
-  console.log(value);
   // send the request
   return Client.distanceMatrix({
     origins: [{ lat: value.originLat, lng: value.originLong }],
